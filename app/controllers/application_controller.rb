@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
     
     def after_sign_in_path_for(resource)
         
-        app_dashboard_index_path
+        rails_admin_path
     end
   
 end
