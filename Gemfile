@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
 gem 'rails_admin', git: 'https://github.com/sferik/rails_admin.git'
+gem 'cancancan'
+gem 'rolify'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
