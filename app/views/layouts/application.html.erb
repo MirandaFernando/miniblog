@@ -14,6 +14,7 @@
     <% if current_user.nil? %>
 	    <%= link_to new_user_session_path, class: 'login-button' do %>Sign in<% end %>
     <% else %>
+      <%= current_user.email %><br>
       <%= link_to rails_admin_path, class: 'login-button' do %>Go to App<% end %>
       <%= link_to destroy_user_session_path, method: :delete do %>Log out<% end %>
     <% end %>

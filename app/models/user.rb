@@ -5,4 +5,9 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   has_many :posts
+  before_create :set_role
+  private
+    def set_role
+      add_role(:autor)
+    end
 end

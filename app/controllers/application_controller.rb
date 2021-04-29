@@ -5,7 +5,13 @@ class ApplicationController < ActionController::Base
     
     def after_sign_in_path_for(resource)
         
-        rails_admin_path
+        if resource.has_role? :admin 
+            rails_admin_path
+        elsif resource.has_role? :revisor
+            posts_path
+        else
+            posts_path
+        end    
     end
   
 end
