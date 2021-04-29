@@ -13,7 +13,7 @@ Seu desafio será criar um miniblog para que pessoas posssam publicar posts, os 
 ### Plus
 - o sistema deve permitir upload do post em um arquivo Markdown que será renderizado e será possivel editá-lo via o editor WYSIWYG
 
-#Enviroment
+### Enviroment
 - ruby 2.7.2.
 - Node v14.16.1.
 - Rails 6.1.3.1
@@ -22,13 +22,13 @@ Seu desafio será criar um miniblog para que pessoas posssam publicar posts, os 
 ```
 yarn add toastr
 ```
-# setup
+### setup
 ```
 bundle install
 rake db:create
 rake db:migrate
 ```
-# Run Server
+### Run Server
 ```
 bin/rails server
 ```
