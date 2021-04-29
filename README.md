@@ -14,10 +14,9 @@ Seu desafio será criar um miniblog para que pessoas posssam publicar posts, os 
 - o sistema deve permitir upload do post em um arquivo Markdown que será renderizado e será possivel editá-lo via o editor WYSIWYG
 
 Requerimentos:
-ruby 2.7.2
-Node v14.16.1
-Toastr para  Rails 6 
+-ruby 2.7.2
+-Node v14.16.1
+-Toastr para  Rails 6 
     yarn add toastr
 
 
-===============
