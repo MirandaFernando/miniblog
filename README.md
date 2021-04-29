@@ -16,8 +16,11 @@ Seu desafio será criar um miniblog para que pessoas posssam publicar posts, os 
 Requerimentos
 - ruby 2.7.2.
 - Node v14.16.1.
-- Toastr para  Rails 6 
-    yarn add toastr
+- Rails 6.1.3.1
+- Toastr para  Rails 6    
+```
+yarn add toastr
+```
 
 
 ===============
