@@ -1,24 +1,23 @@
-# README
+# Desafio 4
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Seu desafio será criar um miniblog para que pessoas posssam publicar posts, os requisitos são:
+- Um autor pode criar posts :heavy_check_mark:
+- Posts publicados podem receber comentários de leitores
+- Autores devem ser capazes de fazer login para criar ou editar posts :heavy_check_mark:
+- O blog deve ter um portal administrativo para que administradores do blog possam administrar posts (editar, publicar, excluir) 
+- As features devem ter testes
+- no sistema administrativo deve ter acesso ao revisor que pode apenas revisar o posts, pode adicionar comentarios de revisao e editar o post
+  - permitir comentarios no admin que podem ser marcados como feito
+- Utiliza Ruby on Rails  :heavy_check_mark:
+- utilize um editor WYSIWYG no campo de texto para criaçao do POST
+### Plus
+- o sistema deve permitir upload do post em um arquivo Markdown que será renderizado e será possivel editá-lo via o editor WYSIWYG
 
-Things you may want to cover:
+Requerimentos:
+ruby 2.7.2
+Node v14.16.1
+Toastr para  Rails 6 
+    yarn add toastr
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+===============
